@@ -1,0 +1,29 @@
+{
+  "name": "design-patterns-typescript",
+  "version": "1.0.0",
+  "description": "Implementation of Design Patterns in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "ts-node",
+    "example": "ts-node",
+    "example:creational": "ts-node src/creational",
+    "example:structural": "ts-node src/structural",
+    "example:behavioral": "ts-node src/behavioral"
+  },
+  "keywords": [
+    "design-patterns",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.17.16",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
